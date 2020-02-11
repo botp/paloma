@@ -9,8 +9,6 @@ module Paloma
 
 
       base.module_eval do
-        prepend_view_path "#{Paloma.root}/app/views/"
-
         before_action :track_paloma_request
         helper_method :insert_paloma_hook
       end

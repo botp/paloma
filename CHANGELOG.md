@@ -1,3 +1,7 @@
+## 6.0.0
+* https://github.com/gnclmorais/paloma/pull/7 - Stop removing the Paloma hook. If you are using Paloma with an altered `_hook.html.erb` because of this issue, you might not need those changes anymore. Read more about it on [here](https://github.com/gnclmorais/paloma/pull/7) and [here](https://github.com/kbparagua/paloma/issues/101).
+
+
 ## 5.1.0
 * https://github.com/gnclmorais/paloma/pull/1 - Replace depricated `before_filter` with `before_action`.
 * Update dev dependencies, since `before_action` is no available before Rails 4.0.2.
